@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sai Survey & Civil Engineering Pvt. Ltd.</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/sai.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .form-container {
+      background: #f8f9fa;
+      padding: 40px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .form-title {
+      color: #007bff;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 600;
+    }
+    
+    .form-control {
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 2px solid #e9ecef;
+      padding: 12px 15px;
+    }
+    
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    
+    .submit-btn {
+      background-color: #007bff;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      color: white;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      width: 100%;
+    }
+    
+    .submit-btn:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);
+    }
+    
+    .loading {
+      display: none;
+      text-align: center;
+      color: #007bff;
+      margin: 10px 0;
+    }
+    
+    .error-message, .sent-message {
+      display: none;
+      text-align: center;
+      margin: 15px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .error-message {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+    
+    .sent-message {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+  </style>
+</head>
+
+<body class="contact-page">
+
+
+  <div class="cute-engineer-loader" id="cuteEngineerLoader">
+    <div class="loader-wrapper">
+        <div class="cute-engineer">
+            <div class="progress-circle"></div>
+            
+            <!-- Floating Tools -->
+            <div class="floating-tools">
+                <div class="tool">🔧</div>
+                <div class="tool">⚒️</div>
+                <div class="tool">📐</div>
+                <div class="tool">🔨</div>
+            </div>
+            
+            <!-- Engineer Character -->
+            <div class="engineer-head">
+                <div class="hard-hat">
+                    <div class="hat-line"></div>
+                </div>
+                <div class="eyes">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+                <div class="smile"></div>
+            </div>
+            
+            <div class="engineer-body">
+                <div class="arm arm-left"></div>
+                <div class="arm arm-right"></div>
+            </div>
+            
+            <div class="legs">
+                <div class="leg"></div>
+                <div class="leg"></div>
+            </div>
+        </div>
+        
+        <div class="loading-text">Sai Survey &
+          Civil Engineering Pvt. Ltd.!</div>
+        <div class="loading-dots">Loading<span class="dots-animation"></span></div>
+    </div>
+</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/sai1.png" alt="Sai Survey & Civil Engineering">
+        <h1 class="sitename">
+          <span class="sitename-full">Sai Survey &<br>Civil Engineering Pvt. Ltd.</span>
+          <span class="sitename-short">Sai Survey & Civil Engineering Pvt. Ltd.</span>
+        </h1>
+      </a>
+  
+      <!-- Navigation -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="Client.html">Our Clients</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="career.html"class="active">Career</a></li>
+          <li><a href="contact.html">Employee Query</a></li>
+        </ul>
+      </nav>
+  
+      <!-- Toggle button should be here -->
+      <i class="mobile-nav-toggle d-xl-none bi bi-list" 
+         style="color:#000; font-size:28px;"></i>
+  
+    </div>
+  </header>
+  
+  
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+      <div class="container position-relative">
+        <h1>Employee Box</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Employee Box</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Forms Section -->
+    <section id="forms" class="contact section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          
+          <!-- Career Form -->
+          <div class="col-lg-6">
+            <div class="form-container" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="form-title">
+                <i class="bi bi-briefcase me-2"></i>
+                Career Application Form
+              </h3>
+              
+              <form id="career-form" class="php-email-form" enctype="multipart/form-data">
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <input type="text" name="full_name" class="form-control" placeholder="Full Name *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <select name="position" class="form-control" required>
+                      <option value="">Select Position *</option>
+                      <option value="Civil Engineer">Civil Engineer</option>
+                      <option value="Project Manager">Project Manager</option>
+                      <option value="Site Supervisor">Site Supervisor</option>
+                      <option value="Architect">Architect</option>
+                      <option value="Safety Officer">Safety Officer</option>
+                      <option value="Construction Worker">Construction Worker</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="number" name="experience" class="form-control" placeholder="Years of Experience" min="0" max="50">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="text" name="qualification" class="form-control" placeholder="Highest Qualification">
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <input type="text" name="current_company" class="form-control" placeholder="Current Company (if any)">
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <input type="number" name="expected_salary" class="form-control" placeholder="Expected Salary (per month)">
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <textarea name="cover_letter" class="form-control" rows="4" placeholder="Cover Letter / Why do you want to join us?"></textarea>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <textarea name="additional_info" class="form-control" rows="3" placeholder="Additional Information (Skills, Certifications, etc.)"></textarea>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <label for="resume_upload" class="form-label">
+                      <i class="bi bi-file-pdf me-2"></i>Upload Resume/CV (PDF only) *
+                    </label>
+                    <input type="file" name="resume" id="resume_upload" class="form-control" accept=".pdf" required>
+                    <small class="text-muted">Maximum file size: 5MB</small>
+                  </div>
+                  
+                  <div class="col-md-12 text-center">
+                    <button type="submit" id="career-submit-btn" class="submit-btn">
+                      <i class="bi bi-send me-2"></i>Submit Application
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+
+          <!-- Client Form -->
+          <div class="col-lg-6">
+            <div class="form-container" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="form-title">
+                <i class="bi bi-people me-2"></i>
+                Join as Client Form
+              </h3>
+              
+              <form id="client-form" class="php-email-form">
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <input type="text" name="company_name" class="form-control" placeholder="Company Name *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="text" name="contact_person" class="form-control" placeholder="Contact Person *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address *" required>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <input type="text" name="company_address" class="form-control" placeholder="Company Address">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <select name="project_type" class="form-control" required>
+                      <option value="">Project Type *</option>
+                      <option value="Residential Construction">Residential Construction</option>
+                      <option value="Commercial Construction">Commercial Construction</option>
+                      <option value="Industrial Construction">Industrial Construction</option>
+                      <option value="Infrastructure">Infrastructure</option>
+                      <option value="Renovation">Renovation</option>
+                      <option value="Interior Design">Interior Design</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <select name="budget_range" class="form-control" required>
+                      <option value="">Budget Range *</option>
+                      <option value="Under 10 Lakhs">Under ₹10 Lakhs</option>
+                      <option value="10-25 Lakhs">₹10-25 Lakhs</option>
+                      <option value="25-50 Lakhs">₹25-50 Lakhs</option>
+                      <option value="50 Lakhs - 1 Crore">₹50 Lakhs - 1 Crore</option>
+                      <option value="1-5 Crores">₹1-5 Crores</option>
+                      <option value="Above 5 Crores">Above ₹5 Crores</option>
+                    </select>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="date" name="expected_start_date" class="form-control" placeholder="Expected Start Date">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <input type="text" name="project_location" class="form-control" placeholder="Project Location">
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <textarea name="project_description" class="form-control" rows="4" placeholder="Project Description *" required></textarea>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <textarea name="special_requirements" class="form-control" rows="3" placeholder="Special Requirements or Additional Information"></textarea>
+                  </div>
+                  
+                  <div class="col-md-12 text-center">
+                    <!-- <div class="loading client-loading">Submitting Request...</div>
+                    <div class="error-message client-error"></div> -->
+                    <!-- <div class="sent-message client-success">Your client request has been submitted successfully! We'll contact you soon.</div> -->
+                    <button type="submit" class="submit-btn">
+                      <i class="bi bi-handshake me-2"></i>Join as Client
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Forms Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+  
+        <!-- About -->
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/sai.png" alt="" style="width: 45px; height: 60px; margin-right: 10px;">
+            <span class="sitename">Sai Survey &
+              Civil Engineering Pvt. Ltd.</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-2"><strong>Phone:</strong> <span>9958218397</span></p>
+            <p><strong>Email:</strong> <span>saisurveycepvtltd@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-3">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+  
+        <!-- Useful Links -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Our Services -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Construction</a></li>
+            <li><a href="#">Civil Engineering</a></li>
+            <li><a href="#">Roads & Infrastructure</a></li>
+            <li><a href="#">Surveying</a></li>
+            <li><a href="#">Project Management</a></li>
+          </ul>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+  
+        <!-- Support -->
+     
+  
+      </div>
+    </div>
+  
+    <div class="container text-center mt-4">
+      <p>
+        © 2025 Sai Survey & Civil Engineering Pvt. Ltd. | Proudly owned and operated by 
+        <a href="https://wa.me/919621305022" target="_blank" style="text-decoration:none; color:inherit;">
+          Nishant
+        </a>
+      </p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    
+ 
+      
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by 
+        <a href="https://wa.me/919621305022" target="_blank" style="text-decoration:none; color:inherit;">
+          Nishant (+91 96213 05022)
+        </a>
+        </div>
+    </div>
+    
+    
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <!-- <script src="assets/js/main.js"></script> -->
+
+  <!-- Form Handling Scripts -->
+  <script>
+    // Career Form Handler
+    const careerForm = document.getElementById("career-form");
+    careerForm.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      
+      const loadingEl = document.querySelector(".career-loading");
+      const errorEl = document.querySelector(".career-error");
+      const successEl = document.querySelector(".career-success");
+      
+      // Validate PDF file
+      const fileInput = document.getElementById("resume_upload");
+      const file = fileInput.files[0];
+      
+      if (!file) {
+        errorEl.innerHTML = "Please upload your resume/CV in PDF format.";
+        errorEl.style.display = "block";
+        return;
+      }
+      
+      if (file.type !== "application/pdf") {
+        errorEl.innerHTML = "Please upload only PDF files.";
+        errorEl.style.display = "block";
+        return;
+      }
+      
+      if (file.size > 5 * 1024 * 1024) { // 5MB limit
+        errorEl.innerHTML = "File size should be less than 5MB.";
+        errorEl.style.display = "block";
+        return;
+      }
+      
+      loadingEl.style.display = "block";
+      errorEl.style.display = "none";
+      successEl.style.display = "none";
+
+      const formData = new FormData(careerForm);
+      formData.append("form_type", "Career Application");
+
+      try {
+        // Replace with your actual form submission endpoint
+        const res = await fetch("forms/career.php", {
+          method: "POST",
+          body: formData // Send as FormData to handle file upload
+        });
+        
+        loadingEl.style.display = "none";
+        
+        if (res.ok) {
+          successEl.style.display = "block";
+          careerForm.reset();
+        } else {
+          throw new Error("Submission failed");
+        }
+      } catch (error) {
+        loadingEl.style.display = "none";
+        errorEl.innerHTML = "Error submitting application. Please try again.";
+        errorEl.style.display = "block";
+      }
+    });
+
+    // Client Form Handler
+    const clientForm = document.getElementById("client-form");
+    clientForm.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      
+      const loadingEl = document.querySelector(".client-loading");
+      const errorEl = document.querySelector(".client-error");
+      const successEl = document.querySelector(".client-success");
+      
+      loadingEl.style.display = "block";
+      errorEl.style.display = "none";
+      successEl.style.display = "none";
+
+      const formData = new FormData(clientForm);
+      const object = Object.fromEntries(formData);
+      object.form_type = "Client Registration";
+      const json = JSON.stringify(object);
+
+      try {
+        // Replace with your actual form submission endpoint
+        const res = await fetch("forms/client.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: json
+        });
+        
+        loadingEl.style.display = "none";
+        
+        if (res.ok) {
+          successEl.style.display = "block";
+          clientForm.reset();
+        } else {
+          throw new Error("Submission failed");
+        }
+      } catch (error) {
+        loadingEl.style.display = "none";
+        errorEl.innerHTML = "Error submitting request. Please try again.";
+        errorEl.style.display = "block";
+      }
+    });
+  </script>
+
+
+<script>
+  // Cute Engineer Loader Controller
+  class CuteEngineerLoader {
+      constructor() {
+          this.loader = document.getElementById('cuteEngineerLoader');
+          this.isVisible = true;
+          this.initDotsAnimation();
+      }
+      
+      // Initialize dots animation
+      initDotsAnimation() {
+          const dotsElement = document.querySelector('.loading-dots');
+          if (dotsElement) {
+              let dots = '';
+              setInterval(() => {
+                  dots = dots.length >= 3 ? '' : dots + '.';
+                  dotsElement.innerHTML = `Loading${dots}`;
+              }, 200);
+          }
+      }
+      
+      // Show loader
+      show() {
+          if (this.loader) {
+              this.loader.classList.remove('hidden');
+              this.isVisible = true;
+          }
+      }
+      
+      // Hide loader
+      hide() {
+          if (this.loader) {
+              this.loader.classList.add('hidden');
+              this.isVisible = false;
+          }
+      }
+      
+      // Auto hide after specified time
+      autoHide(delay = 3000) {
+          setTimeout(() => {
+              this.hide();
+          }, delay);
+      }
+      
+      // Check if loader is visible
+      isLoaderVisible() {
+          return this.isVisible;
+      }
+  }
+  
+  // Initialize cute loader
+  const cuteLoader = new CuteEngineerLoader();
+  
+  // Example: auto hide after 1.5 seconds
+  cuteLoader.autoHide(1500);
+  
+  // Global access
+  window.CuteEngineerLoader = cuteLoader;
+  window.showCuteLoader = () => cuteLoader.show();
+  window.hideCuteLoader = () => cuteLoader.hide();
+  
+  console.log('Cute Engineer Loader ready! 👷‍♂️');
+  console.log('Use: showCuteLoader() or hideCuteLoader()');
+
+
+
+  
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+// Career Form Handler
+document.getElementById("career-form").addEventListener("submit", async function(e){
+  e.preventDefault();
+
+  const submitBtn = document.getElementById("career-submit-btn");
+  const originalText = submitBtn.innerHTML;
+  submitBtn.disabled = true;
+  submitBtn.innerHTML = "Submitting... ⏳";
+
+  let formData = new FormData(this);
+
+  try {
+    let res = await fetch("forms/career.php", {
+      method: "POST",
+      body: formData
+    });
+
+    let data = await res.json();  // ✅ Now works correctly
+
+    Swal.fire({
+      icon: data.status === "success" ? "success" : "error",
+      title: data.status === "success" ? "Application Submitted!" : "Oops...",
+      text: data.message
+    });
+
+    if(data.status === "success") this.reset();
+
+  } catch (err) {
+    Swal.fire({
+      icon: "error",
+      title: "Error",
+      text: "Something went wrong, please try again."
+    });
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = originalText;
+  }
+});
+
+// Client Form Handler
+document.getElementById("client-form").addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  let formData = new FormData(this);
+
+  Swal.fire({
+    title: 'Please Wait...',
+    text: 'Submitting your request',
+    allowOutsideClick: false,
+    didOpen: () => { Swal.showLoading(); }
+  });
+
+  try {
+    let res = await fetch("forms/client.php", {
+      method: "POST",
+      body: formData
+    });
+
+    let data = await res.json();  // ✅ Now works correctly
+
+    Swal.fire({
+      icon: data.status === "success" ? "success" : "error",
+      title: data.status === "success" ? "Request Submitted!" : "Oops...",
+      text: data.message
+    });
+
+    if(data.status === "success") this.reset();
+
+  } catch (err) {
+    Swal.fire({
+      icon: "error",
+      title: "Error",
+      text: "Something went wrong, please try again."
+    });
+  }
+});
+</script>
+
+
+
+  
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
